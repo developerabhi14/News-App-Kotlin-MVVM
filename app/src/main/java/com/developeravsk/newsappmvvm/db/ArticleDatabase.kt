@@ -11,7 +11,7 @@ import com.developeravsk.newsappmvvm.models.Article
 
 @TypeConverters(Converters::class)
 abstract class ArticleDatabase : RoomDatabase() {
-    abstract fun ArticleDao(): Article
+    abstract fun ArticleDao(): ArticleDao
 
     companion object {
         @Volatile
