@@ -1,4 +1,4 @@
-package com.developeravsk.newsappmvvm.ui
+package com.developeravsk.newsappmvvm.models
 
 data class Source(
     val id: String,

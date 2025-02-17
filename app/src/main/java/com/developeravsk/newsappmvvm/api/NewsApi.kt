@@ -1,5 +1,6 @@
 package com.developeravsk.newsappmvvm.api
 
+import com.developeravsk.newsappmvvm.models.NewsResponse
 import com.developeravsk.newsappmvvm.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
